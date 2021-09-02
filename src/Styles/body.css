@@ -4,4 +4,58 @@
   height: 100vh;
   color: white;
   padding: 20px;
+  overflow-y: overlay;
+}
+
+.body::-webkit-scrollbar {
+  display: none;
+}
+
+.body-info {
+  display: flex;
+  align-items: flex-end;
+  padding: 10px;
+}
+.body-info-text {
+  flex: 1;
+}
+
+.body-info-text h2 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.body-info-text p {
+  font-size: 14px;
+}
+
+.body-info img {
+  height: 20vw;
+  margin: 0 20px;
+  box-shadow: 0px 4px 60px rgba(0, 0, 0, 0.5);
+}
+
+.body-icons {
+  display: flex;
+  align-items: center;
+}
+
+.body-icons .MuiSvgIcon-root {
+  margin-right: 20px;
+}
+
+.body-shuffle {
+  font-size: 80px !important;
+  margin-left: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.body-shuffle:hover {
+  transform: scale(1.08);
+  transition: transform 0.1s ease-in;
+}
+
+.body-songs {
+  margin: 20px -30px;
 }
